@@ -1,2 +1,4 @@
-# GenPhys2018Fall
-The repository of General Physics for NTUEE in 2018 fall.
+# 普通物理學程式模擬專題
+這裡是電機系普物，胡崇德老師班級所適用的GitHub頁面，關於程式模擬作業和專題的資訊會盡量全部整理到這邊來。
+
+負責助教：王涵聖 r07222060@ntu.edu.tw
