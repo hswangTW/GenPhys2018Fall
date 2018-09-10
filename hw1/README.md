@@ -82,7 +82,7 @@ scene = canvas(width=800, height=800, center=vec(0,height/2,0), background=vec(0
 
 *** `background` sets the background color to vec(red, green, blue), which indicates the strength for red, green, and blue, respectively, scaled from 0.0 to 1.0. **Always set this attribute to some background color, otherwise the background defaults to black, making results difficult to see, especially with a projector.**
 
-###### 助教註: Here I could provide you a possible background color, ![#EEEBD0](https://placehold.it/15/eeebd0/000000?text=+) `#EEEBD0`, which could be represented as vec(255, 252, 208)/255.0 in VPython. I think it looks better than vec(0.5,0.5,0), or you can try to find a better one.
+###### 助教註: Here I could provide you a possible background color, <img src="https://placehold.it/15/eeebd0/000000?text=+" /> `#EEEBD0`, which could be represented as vec(255, 252, 208)/255.0 in VPython. I think it looks better than vec(0.5,0.5,0), or you can try to find a better one.
 
 **4. Objects in simulation world.**
 
