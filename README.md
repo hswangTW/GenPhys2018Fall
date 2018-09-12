@@ -57,11 +57,11 @@
 
 * **Anaconda + VPython 安裝教學**  
   Windows: https://tinyurl.com/ydxwkm5f   
-  Mac: https://tinyurl.com/y7y9aj5o (不含 VPython)
-  （使用 Anaconda 安裝 VPython 請看這邊）
+  Mac: https://tinyurl.com/y7y9aj5o (    不含 VPython)  
+  （在Mac使用Anaconda安裝Vpython，請在terminal輸入`conda install vpython`。）
   
 * **普通的 Python 3 + VPython 安裝教學**  
-  Windows: https://tinyurl.com/ya7g9wyw  
+  Windows: https://tinyurl.com/ya7g9wyw (記得是安裝Python 3）  
   Mac: https://tinyurl.com/y7jkpbyo
   
 ## 網站資源
