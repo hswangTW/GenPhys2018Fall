@@ -56,12 +56,12 @@
 沒在自己電腦安裝過 Python 3 的人，很推薦直接安裝 Anaconda ，它包含了很多日後各位可能用到的套件（numpy, matplotlib, scikit-learn, etc.)、Python 的虛擬環境、還有 Jupyter notebook 這個有趣好用的工具等等。若是電腦裡已經有 Python 3 的話就沒那麼推薦了，一不小心就會把 Python 環境搞得一團亂。
 
 * **Anaconda + VPython 安裝教學**  
-  Windows: https://tinyurl.com/ydxwkm5f
+  Windows: https://tinyurl.com/ydxwkm5f   
   Mac: https://tinyurl.com/y7y9aj5o (不含 VPython)
   （使用 Anaconda 安裝 VPython 請看這邊）
   
 * **普通的 Python 3 + VPython 安裝教學**  
-  Windows: https://tinyurl.com/ya7g9wyw
+  Windows: https://tinyurl.com/ya7g9wyw  
   Mac: https://tinyurl.com/y7jkpbyo
   
 ## 網站資源
