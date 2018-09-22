@@ -42,7 +42,7 @@ dt = 0.001
 while ball.pos.x < 15.0:         # simulate until x=15.0m
     rate(1000)
     ball.pos += ball.v*dt
-    ball.v.y += - g*dt
+    ball.v.y += -g*dt
     
     if ball.pos.y <= size and ball.v.y < 0: # new: check if ball hits the ground
         ball.v.y = -ball.v.y               # if so, reverse y component of velocity
@@ -167,7 +167,7 @@ while ball.pos.y >= size: # until the ball hit the ground
 msg = text(text='final speed = ' + str(ball.v.mag), pos=vec(-10, 15, 0))
 ```
 
-We know that the acceleration due to the air-drag force acted on an object is of the opposite direction to the object’s velocity and the acceleration is positively correlated to the object’s speed. Here we assume that the correlation is linear, therefore an additional velocity change `-C_drag*ball.v*dt` ( `-C_drag*v` is the deceleration due to air drag) is added to the velocity formula, `ball.v += vec(0, -g, 0)*dt - C_drag*ball.v*dt`. With this, we will be able to simulate a flying object under the influence of air-drag.
+We know that the acceleration due to the air-drag force acted on an object is of the opposite direction to the object’s velocity and the acceleration is positively correlated to the object’s speed. Here we assume that the correlation is linear, therefore an additional velocity change <br> `-C_drag*ball.v*dt` ( `-C_drag*v` is the deceleration due to air drag) is added to the velocity formula, `ball.v += vec(0, -g, 0)*dt - C_drag*ball.v*dt`. With this, we will be able to simulate a flying object under the influence of air-drag.
 
 ```python
 msg = text(text='final speed = ' + str(ball.v.mag), pos=vec(-10, 15, 0))
@@ -178,7 +178,8 @@ This code shows in the end the final speed of the ball. The text expression is `
 ###### 助教註: There are more simple and more "python-like" ways to write `msg.text` in the last line, like:
 ```python
 # Supported by versions after Python 3.6
-msg.text = f'final speed = {ball.v.mag}' # Note that there's a "f" in front of the string!
+msg.text = f'final speed = {ball.v.mag}'
+# Note that there's a "f" in front of the string!
 
 # Supported by versions after Python 2.6 (including python 3)
 msg.text = 'final speed = {}'.format(ball.v.mag)
