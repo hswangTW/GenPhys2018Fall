@@ -18,7 +18,7 @@
 作業原則上可以分成兩個部份：
 
 #### （一）程式作業
-請各位在看完石明豐老師的講課影片後，照作業說明中的要求，準時在CEIBA作業區繳交能夠正常運行的程式碼（py檔）。每次作業都會有必作（must）和選作（optional）部份，選作部份原則上必須在九次作業中完成其中四次，多出來的則作為加分使用，詳見下方的配分說明。
+請各位在看完石明豐老師的講課影片後，照作業說明文件中的要求，準時在CEIBA作業區繳交能夠正常運行的程式碼（py檔）。每次作業都會有必作（must）和選作（optional）部份，選作部份原則上必須在九次作業中完成其中四次，多出來的則作為加分使用，詳見下方的配分說明。
 
 #### （二）說明影片
 除了程式碼之外，老師還要求各位必須從九次作業中挑選四次拍攝說明影片，請同學們當作是自己在教課一般，在影片中說明：
@@ -56,12 +56,12 @@
 沒在自己電腦安裝過 Python 3 的人，很推薦直接安裝 Anaconda ，它包含了很多日後各位可能用到的套件（numpy, matplotlib, scikit-learn, etc.)、Python 的虛擬環境、還有 Jupyter notebook 這個有趣好用的工具等等。若是電腦裡已經有 Python 3 的話就沒那麼推薦了，一不小心就會把 Python 環境搞得一團亂。
 
 * **Anaconda + VPython 安裝教學**  
-  Windows: https://tinyurl.com/ydxwkm5f
-  Mac: https://tinyurl.com/y7y9aj5o (不含 VPython)
-  （使用 Anaconda 安裝 VPython 請看這邊）
+  Windows: https://tinyurl.com/ydxwkm5f   
+  Mac: https://tinyurl.com/y7y9aj5o (    不含 VPython)  
+  （在Mac使用Anaconda安裝Vpython，請在terminal輸入`conda install -c vpython vpython`。）
   
 * **普通的 Python 3 + VPython 安裝教學**  
-  Windows: https://tinyurl.com/ya7g9wyw
+  Windows: https://tinyurl.com/ya7g9wyw (記得是安裝Python 3）  
   Mac: https://tinyurl.com/y7jkpbyo
   
 ## 網站資源
