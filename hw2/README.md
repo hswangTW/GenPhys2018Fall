@@ -175,15 +175,15 @@ msg = text(text='final speed = ' + str(ball.v.mag), pos=vec(-10, 15, 0))
 
 This code shows in the end the final speed of the ball. The text expression is `'final speed = ' + str(ball.v.mag)`. `ball.v.mag` is the magnitude of the velocity, i.e. the speed. The function `str()` change the number into a text string and this is added to `'final speed = '` for the entire message.
 
-###### 助教註: There are more simple and more "python-like" ways to write `msg.text` in the last line, like:
-```python
-# Supported by versions after Python 3.6
-msg.text = f'final speed = {ball.v.mag}' # Note that there's a "f" in front of the string!
-
-# Supported by versions after Python 2.6 (including python 3)
-msg.text = 'final speed = {}'.format(ball.v.mag)
-```
-###### Both of the two ways are equivalent to the way of the professor Shih. For the more detailed instruction, you can visit this site: https://tinyurl.com/y7llz68q
+> 助教註: There are more simple and more "python-like" ways to write `msg.text` in the last line, like:
+> ```python
+> # Supported by versions after Python 3.6
+> msg.text = f'final speed = {ball.v.mag}' # Note that there's a "f" in front of the string!
+> 
+> # Supported by versions after Python 2.6 (including python 3)
+> msg.text = 'final speed = {}'.format(ball.v.mag)
+> ```
+> Both of the two ways are equivalent to the way of the professor Shih. For the more detailed instruction, you can visit this site: https://tinyurl.com/y7llz68q
 
 ## IV. Homework
 
