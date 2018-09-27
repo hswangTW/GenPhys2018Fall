@@ -1,6 +1,6 @@
 # Homework 2: Bouncing Ball with Air Drag [if, nested structure]
 
-和作業一一樣，如果想要參考原版的話，老師官方提供的作業說明[在此](VP1.pdf)。
+和作業一一樣，如果想要參考原版的話，老師官方提供的作業說明[在此](VP2.pdf)。
 
 ## 作業繳交方式（注意！！）
 
@@ -188,10 +188,18 @@ This code shows in the end the final speed of the ball. The text expression is `
 
 ## IV. Homework
 
-(must):
+### must:
 
-A ball, whose radius is `size = 0.25`, at initial position = `vec(-15, size, 0)`, with initial velocity `ball.v = vec(20*cos(theta), 20*sin(theta), 0)` and `theta = pi/4`, is launched with a linear air drag of drag-Coefficient `C_drag = 0.9` . When the ball hits the ground, it bounces elastically (*i.e.* without losing any energy). Plot the trajectory of the ball before the ball has hit the ground for 3 times, and (1) find the distance of the displacement of the ball and (2) show the height (`ball.pos.y`) when the ball has reached the highest point. In the same page, also plot a graph of speed (magnitude of the velocity) of the ball versus time.
+A ball, whose radius is `size = 0.25`, at initial position = `vec(-15, size, 0)`, with initial velocity `ball.v = vec(20*cos(theta), 20*sin(theta), 0)` and `theta = pi/4`, is launched with a linear air drag of drag-Coefficient `C_drag = 0.9` . When the ball hits the ground, it bounces elastically (*i.e.* without losing any energy). Plot the trajectory of the ball before the ball has hit the ground for 3 times, and
 
-(optional):
+1. find the distance of the displacement of the ball
+
+2. show the height (`ball.pos.y`) when the ball has reached the highest point.
+
+3. In the same page, also plot a graph of speed (magnitude of the velocity) of the ball versus time.
+
+Both 1. and 2. should be displayed in the animation window.
+
+### optional:
 
 If a ball is dropped freely, i.e. the initial velocity = `vec(0, 0, 0)`, in air with drag-Coefficient `C_drag = 0.3`, plot a graph of its speed vs time and print its terminal velocity in the shell.
