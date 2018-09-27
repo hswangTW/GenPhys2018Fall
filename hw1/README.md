@@ -189,3 +189,5 @@ You need to hand in your homework with a filename extension ".py". If you are wr
 * (optional) Add some codes to find the following values and show the values in the end.
   1. The flying time in the air.
   2. The length of the entire path. (Note: in python, x\*\*p means x to power p, <a href="https://www.codecogs.com/eqnedit.php?latex=x^p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^p" title="x^p" /></a>)
+
+**All the results should be displayed in the animation window like professor Shih did in the video**
