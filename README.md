@@ -74,7 +74,11 @@
   
 * **VPython User Forum:** https://tinyurl.com/hw8eu68
   只要用 Google 帳號點選加入 group 就可以在上面發問，會有專家回應。
-  
+
+## 關於螢幕錄影
+
+螢幕錄影方法的補充請看[這邊](ScreenRecord.md)。
+
 ## 聯絡助教
 
 * 負責助教: 物理碩一 王涵聖
