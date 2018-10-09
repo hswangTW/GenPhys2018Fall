@@ -188,6 +188,8 @@ This code shows in the end the final speed of the ball. The text expression is `
 
 ## IV. Homework
 
+**Please obtain the values by numerical methods. Don't just solve the equation and evaluate it.**
+
 ### must:
 
 A ball, whose radius is `size = 0.25`, at initial position = `vec(-15, size, 0)`, with initial velocity `ball.v = vec(20*cos(theta), 20*sin(theta), 0)` and `theta = pi/4`, is launched with a linear air drag of drag-Coefficient `C_drag = 0.9` . When the ball hits the ground, it bounces elastically (*i.e.* without losing any energy). Plot the trajectory of the ball before the ball has hit the ground for 3 times, and
