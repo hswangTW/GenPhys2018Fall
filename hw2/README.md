@@ -202,7 +202,7 @@ A ball, whose radius is `size = 0.25`, at initial position = `vec(-15, size, 0)`
 
 Both 1. and 2. should be displayed in the animation window.
 
-The definition of the drag-coefficient is same as the code in part [III](#III.).
+The definition of the drag-coefficient is same as the code in part [III](##iii-air_drag).
 
 ### optional:
 
