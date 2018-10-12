@@ -194,7 +194,7 @@ You need to hand in your homework with a filename extension ".py". If you are wr
 
 # V. Grading Criteria
 
-### Must
+### Must (1 point)
 
 1. Correctly display the motion of the ball with a trail. (20%)
 2. Make the arrow move with the ball. (20%)
@@ -202,7 +202,7 @@ You need to hand in your homework with a filename extension ".py". If you are wr
 4. Make the length of the arrow proportional to the speed. (20%)
 5. Correctly calculate and show the displacement. (20%)
 
-### Optional
+### Optional (0.25 point)
 
 1. Correctly calculate and show one of the two values. (60%)
 2. Correctly calculate and show another value. (40%)
