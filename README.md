@@ -66,13 +66,13 @@
   
 ## 網站資源
 
-* **VPhysics:** https://tinyurl.com/yb9pu62o
+* **VPhysics:** https://tinyurl.com/yb9pu62o  
   石明豐老師直接管理的網站，上面有安裝說明和一些簡單介紹，由於是老師直接管理，所以這裡的作業內容更新是最快的。
   
-* **VPython Documentation:** https://tinyurl.com/ybheq4md
+* **VPython Documentation:** https://tinyurl.com/ybheq4md  
   寫得不怎麼好的 Documentation ，但基本上這個套件各項用法的官方說明都在這裡了，只是真的不太好找。（說不定你們很能理解他的邏輯也不一定）
   
-* **VPython User Forum:** https://tinyurl.com/hw8eu68
+* **VPython User Forum:** https://tinyurl.com/hw8eu68  
   只要用 Google 帳號點選加入 group 就可以在上面發問，會有專家回應。
 
 ## 關於螢幕錄影
