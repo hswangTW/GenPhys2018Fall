@@ -2,7 +2,7 @@
 
 和作業一一樣，如果想要參考原版的話，老師官方提供的作業說明[在此](VP2.pdf)。
 
-## 作業繳交方式（注意！！）
+## 作業繳交格式（注意！！）
 
 請上傳一個zip檔（壓縮檔，請注意副檔名要是zip）到CEIBA，zip檔內需要包含一個**名稱是自己學號的資料夾**，裡面包含一個或兩個py檔。請將必作部份取名為`must.py`，選作部份取名為`optional.py`。如果這次作業有拍攝影片，請**將影片連結寫在`video.txt`裡面，並一併放入學號資料夾中**。
 
@@ -16,7 +16,7 @@ homework.zip
 ```
 ## 繳交期限
 
-尚未公佈
+2018年10月16日 星期二 晚上九點前
 
 # 作業說明正文
 
@@ -188,11 +188,13 @@ This code shows in the end the final speed of the ball. The text expression is `
 
 ## IV. Homework
 
+**Please obtain the values by numerical methods. Don't just solve the equation and evaluate it.**
+
 ### must:
 
 A ball, whose radius is `size = 0.25`, at initial position = `vec(-15, size, 0)`, with initial velocity `ball.v = vec(20*cos(theta), 20*sin(theta), 0)` and `theta = pi/4`, is launched with a linear air drag of drag-Coefficient `C_drag = 0.9` . When the ball hits the ground, it bounces elastically (*i.e.* without losing any energy). Plot the trajectory of the ball before the ball has hit the ground for 3 times, and
 
-1. find the distance of the displacement of the ball
+1. find the distance of the displacement of the ball (the length of the displacement vector)
 
 2. show the height (`ball.pos.y`) when the ball has reached the highest point.
 
@@ -200,6 +202,10 @@ A ball, whose radius is `size = 0.25`, at initial position = `vec(-15, size, 0)`
 
 Both 1. and 2. should be displayed in the animation window.
 
+The definition of the drag-coefficient is same as the code in part [III](#iii-air_drag).
+
 ### optional:
 
 If a ball is dropped freely, i.e. the initial velocity = `vec(0, 0, 0)`, in air with drag-Coefficient `C_drag = 0.3`, plot a graph of its speed vs time and print its terminal velocity in the shell.
+
+Note: The optional part is independent to the must-do part.

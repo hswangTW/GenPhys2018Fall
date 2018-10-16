@@ -191,3 +191,18 @@ You need to hand in your homework with a filename extension ".py". If you are wr
   2. The length of the entire path. (Note: in python, x\*\*p means x to power p, <a href="https://www.codecogs.com/eqnedit.php?latex=x^p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^p" title="x^p" /></a>)
 
 **All the results should be displayed in the animation window like professor Shih did in the video**
+
+# V. Grading Criteria
+
+### Must (1 point)
+
+1. Correctly display the motion of the ball with a trail. (20%)
+2. Make the arrow move with the ball. (20%)
+3. Make the arrow parallel to the velocity vector. (20%)
+4. Make the length of the arrow proportional to the speed. (20%)
+5. Correctly calculate and show the displacement. (20%)
+
+### Optional (0.25 point)
+
+1. Correctly calculate and show one of the two values. (60%)
+2. Correctly calculate and show another value. (40%)
