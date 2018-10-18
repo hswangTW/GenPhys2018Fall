@@ -22,6 +22,8 @@ homework.zip
     └── video.txt
 ```
 
+註：就算只有一個py檔也還是請弄成zip檔再上傳喔，不然我不打開檢查就不會知道那是must還是optional。
+
 ### 繳交期限
 
 `10/25 THU 21:00`
