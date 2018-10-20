@@ -32,10 +32,10 @@ homework.zip
 
 ## Contents
 
-+ [List](#I-List)
-+ [Simple Harmonic Motion](#II-simple-harmonic-motion)  
-+ [Multiballs](#III-multiballs)  
-+ [Homework](#IV-homework)  
++ [List](#i-List)
++ [Simple Harmonic Motion](#ii-simple-harmonic-motion)  
++ [Multiballs](#iii-multiballs)  
++ [Homework](#iv-homework)  
 
 ## I. List
 
