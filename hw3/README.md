@@ -34,7 +34,7 @@ homework.zip
 
 + [List](#i-List)
 + [Simple Harmonic Motion](#ii-simple-harmonic-motion)  
-+ [Multiballs](#iii-multiballs)  
++ [Multiballs](#III-multiballs)  
 + [Homework](#iv-homework)  
 
 ## I. List
