@@ -213,3 +213,27 @@ The definition of the drag-coefficient is same as the code in part [III](#iii-ai
 If a ball is dropped freely, i.e. the initial velocity = `vec(0, 0, 0)`, in air with drag-Coefficient `C_drag = 0.3`, plot a graph of its speed vs time and print its terminal velocity in the shell.
 
 Note: The optional part is independent to the must-do part.
+
+## V. Grading policy
+
+### Must (1 point)
+
+* Sucessfully make the ball move under gravity. (20%)
+
+* Make the ball look like feeling some drag force. (20%)
+
+* Show the length of the displacement correctly. (20%)
+
+* Show the maximum height correctly. (20%)
+
+* Plot the speed versus time correctly. (20%)
+
+### Optional (0.25 point):
+
+* Sucessfully make the ball drop freely (with gravity and drag force). (20%)
+
+* Correctly plot the speed versus time. (20%)
+
+* The speed do approach some terminal speed. (40%)
+
+* Correctly show the termianl speed. (20%)
