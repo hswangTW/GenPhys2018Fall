@@ -1,11 +1,15 @@
 # Homework 5: Kepler's Planet motion, and Precession of Moon's orbit [Dict, Class]  
 
-雖然在下面也有講過，不過還是在最上面也用中文講過一次。這次的作業老師拋了一大堆新名詞、新概念進來，如果有人對 class 不熟悉又沒有看影片的習慣，這次我非常建議你去看過。我有自行整理和稍微補充一點名詞的解釋在 Part II 最後面，如果還是不明白記得可以找我問清楚。
+提醒一下，這次作業當然懂的人做起來還是很快，但是比較不熟悉這個的同學可能會花比較多時間寫這次作業，期中考完記得不要太晚開始寫喔。
 
-## 影片以及作業說明
+這次的作業老師拋了一大堆新名詞、新概念進來，如果有人對 class 不熟悉又沒有看影片的習慣，這次我非常建議你去看過。我有自行整理和稍微補充一點名詞的解釋在 Part II 最後面，如果還是不明白記得可以找我問清楚。
+
+另外，我原本想在發布作業的時候順便稍微講一下怎麼看 Python 的錯誤訊息的，不過這次的文件花了我不少時間，以至於來不及放上來。等我弄好之後我會放在這邊，也會放在下次作業，到時候每次出現 error 都不知道怎麼辦的人可以看看。（真的不會講太多東西就是了）
+
+## 影片以及官方pdf
 
 + [影片](https://goo.gl/S5zf6S)  
-+ [作業說明pdf](https://drive.google.com/file/d/1fHksRNigiJxZp__LuM61UJFI2ABuwojE/view)  
++ [官方pdf](VP5.pdf)  
 
 ## 作業繳交格式
 
@@ -194,7 +198,7 @@ The above code provides the parameters that you will need for the moon orbit pre
    moon.v = vector(0, 0, -moon_orbit['v'])
    ```
    Applying the gravitational force acting on moon only by fixing the position of earth, you will observe the moon orbiting around earth. You can change the initial view angle by setting `scene.forward = vector(0, -1, 0)` for a top-view observation. Note: Do NOT leave a trail for the moon orbit, because when later earth is going around the sun, the trail will be very messy.  
-<img width="286.8" height="150" src="../pic/hw5-step1.png"/>  
+<img height="150" src="../pic/hw5-step1.png"/>  
 
 > 助教註: Here if you want to examine the motion of the moon, you can set a smaller dt, like 60 seconds, for debugging.
 
