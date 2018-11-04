@@ -194,7 +194,7 @@ The above code provides the parameters that you will need for the moon orbit pre
    moon.v = vector(0, 0, -moon_orbit['v'])
    ```
    Applying the gravitational force acting on moon only by fixing the position of earth, you will observe the moon orbiting around earth. You can change the initial view angle by setting `scene.forward = vector(0, -1, 0)` for a top-view observation. Note: Do NOT leave a trail for the moon orbit, because when later earth is going around the sun, the trail will be very messy.  
-<img width="286.8" height="150" src="../pic/hw5-step1.png"/>  
+<img height="150" src="../pic/hw5-step1.png"/>  
 
 > 助教註: Here if you want to examine the motion of the moon, you can set a smaller dt, like 60 seconds, for debugging.
 
