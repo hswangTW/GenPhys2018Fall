@@ -211,6 +211,9 @@ The above code provides the parameters that you will need for the moon orbit pre
 
 4. Now, you can add the sun, with its designated mass and its position at Origin, i.e. `vec(0, 0, 0)`. Also set the center of mass of the earth-moon system at `vector(earth_orbit['r'], 0, 0)` by changing accordingly the positions of earth and moon to their suitable positions. Since now the earth-moon system is rotating around the sun, therefore remember to add the earth-orbiting velocity `vector(0, 0, -earth_orbit['v'])` to both `earth.v` and `moon.v`. Also remember to add the gravitational force by sun acted on both earth and moon. Keep the `scene.center = earth.pos`.  
 
+   > #### 助教註:
+   > You may think that if you write `scene.center = earth.pos`, then because they will point to the same `vector` object, so `scene.center` will be updated automatically to the current `earth.pos`. But actually, it WON'T. It's because when the authors define the class `canvas`, they could also define how to assign values to the attributes. In this case, when we write down `scene.center = earth.pos`, Python actually runs `scene.center = vector(earth.pos)`, so `scene.center` doesn't directly point to `earth.pos` but to a brand new `vector`, with the same value as `earth.pos`. So, you have to update the value of `scene.center` manually, while vpython won't do you a favor. 
+
    Run your simulation, you will at first not see the earth and moon because as compared to the sun-earth distance, the earth and moon system is too small. Use your mouse to move closer, then you will observe the moon orbiting the earth. Wait for a bit longer, you will see that the tilting angle of the moon orbit is changing, which indicates the precession of moon’s orbit.  
 5. Find and show the period of the precession of moon’s orbit around the Earth.  
 
