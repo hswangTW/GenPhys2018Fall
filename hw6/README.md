@@ -94,7 +94,7 @@ while True:
 
 Modified from hw3, the above code simulates the horizontal oscillation of a given **amplitude**.
 
-![practice_example](pic/practice_example_merged.png)
+<img src="pic/practice_example_merged.png" height=300/>
 
 1. Now, in addition to the restoring force from the spring, add the air resistance force <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\vec{f}&space;=&space;-b\vec{v}" title="\vec{f} = -b\vec{v}" height=24/> to the ball with **damping factor** <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;b&space;=&space;0.05&space;m&space;\sqrt{k/m}" title="b = 0.05 m \sqrt{k/m}" height=24/>.
 
@@ -121,13 +121,13 @@ Modified from hw3, the above code simulates the horizontal oscillation of a give
 
 Let `omega = [0.1*i + 0.7*sqrt(k/m) for i in range(1, int(0.5*sqrt(k/m)/0.1))]` and by using `for omega_d in omega:`, perform the calculation for steady-state <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;P_T" title="P_T" height=16/> like practice 3 for different <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\omega_d" title="\omega_d" height=12/> . Do not print the result. Instead, for each <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\omega_d" title="\omega_d" height=12/> , when the system reaches steady state, add the latest result of the steady-state <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;P_T" title="P_T" height=16/> to the plot of the “steady-state <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;P_T" title="P_T" height=16/> versus `omega_d`” and then calculate the steady-state <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;P_T" title="P_T" height=16/> for the next <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\omega_d" title="\omega_d" height=12/> . You will get something similar to the figure shown here, which shows clearly the system’s response to different driving frequency <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\omega_d" title="\omega_d" height=12/> . In additional to plotting steady-state <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;P_T" title="P_T" height=16/> versus <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\omega_d" title="\omega_d" height=12/> , also print the optimal <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\omega_d" title="\omega_d" height=12/> such that steady-state <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;P_T" title="P_T" height=16/> has the highest value.
 
-![must](pic/must.png)
+<img src="pic/must.png" height=300/>
 
 ### OPTIONAL
 
 Based on your complete code for practice 2, add an addition ball, two more springs, and a right wall.
 
-![optional](pic/optional.png)
+<img src="pic/optional.png" height=300/>
 
 All the parameters are the same as in the original program except for the following: 
 
