@@ -59,24 +59,24 @@ the_zip_file.zip
 
 > ##### 助教註:
 > Both 2. and 3. are just about a simpler way to construct a list, a dictionary, or a tuple. For example, I wrote some more "traditional" ways equivalent to the above here:
-```python
-# The following is equivalent to L = [i**2 for i in range (5) if i != 3]
-L = []
-for i in range(5):
-    if i != 3:
-        L.append(i**2)
-        
-# The following is equivalent to L = [i*10 + j for i in range(3) for j in range(5)]
-L = []
-for i in range(3):
-    for j in range(5):
-        L.append(i*10 + j)
-        
-# The following is equivalent to D = {i:i**2 for i in [0, 1, 2]}
-D = {}
-for i in [0, 1, 2]:
-    D[i] = i**2
-```
+> ```python
+> # The following is equivalent to L = [i**2 for i in range (5) if i != 3]
+> L = []
+> for i in range(5):
+>     if i != 3:
+>         L.append(i**2)
+>         
+> # The following is equivalent to L = [i*10 + j for i in range(3) for j in range(5)]
+> L = []
+> for i in range(3):
+>     for j in range(5):
+>         L.append(i*10 + j)
+>         
+> # The following is equivalent to D = {i:i**2 for i in [0, 1, 2]}
+> D = {}
+> for i in [0, 1, 2]:
+>     D[i] = i**2
+> ```
 
 ## II. Practice
 
