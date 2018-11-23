@@ -19,7 +19,8 @@ the_zip_file.zip
 ```
 
 ## 繳交期限
-尚未公佈
+
+`2018/11/29 THU 21:00`
 
 ## Contents
 
