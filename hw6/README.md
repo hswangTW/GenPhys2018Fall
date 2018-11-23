@@ -1,5 +1,7 @@
 # Homework 6: Damped Oscillator and Coupled Oscillator [empty class, list representation]
 
+因為有同學大概是直接把 Mac 的 .pages 檔案直接改檔名成 .txt 了，提醒你們一下就算改了副檔名，內在的檔案格式還是可能不一樣的喔。不過這個格式剛好不會造成我太大困擾就是了，所以就提醒一下。 
+
 ## 影片以及官方pdf
 
 + [影片](https://goo.gl/xcZafB)  
