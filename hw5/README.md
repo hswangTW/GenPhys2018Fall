@@ -1,5 +1,11 @@
 # Homework 5: Kepler's Planet motion, and Precession of Moon's orbit [Dict, Class]  
 
+## 同學影片
+
+[播放清單在此](https://tinyurl.com/yckmw5t3)
+
+## 提醒事項
+
 提醒一下，這次作業當然懂的人做起來還是很快，但是比較不熟悉這個的同學可能會花比較多時間寫這次作業，期中考完記得不要太晚開始寫喔。
 
 這次的作業老師拋了一大堆新名詞、新概念進來，如果有人對 class 不熟悉又沒有看影片的習慣，這次我非常建議你去看過。我有自行整理和稍微補充一點名詞的解釋在 Part II 最後面，如果還是不明白記得可以找我問清楚。
