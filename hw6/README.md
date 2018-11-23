@@ -40,6 +40,9 @@ the_zip_file.zip
    L = range(1, 6, 2)  # list(L) = [1, 3, 5] 1 to 6 every other 2 numbers
    ```
 
+   > ##### 助教註:
+   > Notice that the `range` object in Python is **not a list**. Actually it's something called generator, so Professor said `list(L) = [...]` here instead of `L = [...]`. Although you can't directly use it as a list, you can turn it into a list like what Professor did here, e.g. `list(range(5))`.
+
 2. list representation. Sometimes we want to generate a list with some conditions, e.g.
 
    ```python
@@ -50,9 +53,30 @@ the_zip_file.zip
 
 3. List representation can be used in a nested structure, or for dictionary or tuple. e.g.
    ```python
-   L = [i*10 + j for i in range(3) for j in range(5) ] # = [0, 1, 2, 3, 4, 10, 11, 12, 13, 14, 20, 21, 22, 23, 24]
+   L = [i*10 + j for i in range(3) for j in range(5)] # = [0, 1, 2, 3, 4, 10, 11, 12, 13, 14, 20, 21, 22, 23, 24]
    D = {i:i**2 for i in [0, 1, 2]}                     # = {0:0, 1:1, 2:4}
    ```
+
+> ##### 助教註:
+> Both 2. and 3. are just about a simpler way to construct a list, a dictionary, or a tuple. For example, I wrote some more "traditional" ways equivalent to the above here:
+```python
+# The following is equivalent to L = [i**2 for i in range (5) if i != 3]
+L = []
+for i in range(5):
+    if i != 3:
+        L.append(i**2)
+        
+# The following is equivalent to L = [i*10 + j for i in range(3) for j in range(5)]
+L = []
+for i in range(3):
+    for j in range(5):
+        L.append(i*10 + j)
+        
+# The following is equivalent to D = {i:i**2 for i in [0, 1, 2]}
+D = {}
+for i in [0, 1, 2]:
+    D[i] = i**2
+```
 
 ## II. Practice
 
