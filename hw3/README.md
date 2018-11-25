@@ -36,10 +36,11 @@ homework.zip
 
 ## Contents
 
-+ [List](#i-List)
-+ [Simple Harmonic Motion](#ii-simple-harmonic-motion)  
-+ [Multiballs](#iii-multiballs)  
-+ [Homework](#iv-homework)  
+[I. List](#i-list)  
+[II. Simple Harmonic Motion](#ii-simple-harmonic-motion)  
+[III. Multiballs](#iii-multiballs)  
+[IV. Homework](#iv-homework)  
+[V. Grading Policy](#v-grading-policy)  
 
 ## I. List
 
@@ -188,3 +189,17 @@ ms = [0.2, 0.12]         # for balls’ mass
 
 Instead of hanging one ball on the spring to the ceiling, let the two balls connect together horizontally by the spring. Ignore the gravity and simulate the oscillation of the two-ball system in x axis. The spring constant `L` and length `k` are 0.5 and 15, respectively. Both balls are initially at rest with their positions separated by `1.1*L`. Print the period of the oscillation. (not by formula)  
 
+## V. Grading Policy
+
+### Must
+
+* Successfully made the three oscillators oscillating. (20%)
+* The energy looks conserved. (20%)
+* Correctly plotted the instant total kinetic/potential energy. (20%)
+* The average kinetic/potential energy converges to some non-zero constant. (20%)
+* The average kinetic and potential energy converges to the same value. (20%)
+
+### Optional
+
+* Successfully made the two balls oscillating. (60%)
+* Correctly print the period. (40%)
