@@ -1,6 +1,8 @@
- # Homework 7: Spring-Ball Wave and Dispersion of 1D phonon [numpy array]
+# Homework 7: Spring-Ball Wave and Dispersion of 1D phonon [numpy array]
 
 以往遇到一些畫質很差的圖片我都會自己重畫一遍，但是這次我比較沒時間做這件事，所以就先直接用PDF裡的圖片了，之後再補上吧。
+
+另外，這次一樣沒有 Optional 部份，所以 Must-do 部份總分就變成 1.25 分。
 
 ## 影片以及官方PDF  
 
@@ -9,7 +11,9 @@
 
 ## 作業繳交格式
 
-請上傳一個zip檔（壓縮檔，請注意副檔名要是zip）到CEIBA，zip檔內需要包含一個**名稱是自己學號的資料夾**，裡面包含一個或兩個py檔。請將必作部份取名為`must.py`，選作部份取名為`optional.py`。如果這次作業有拍攝影片，**請將影片連結寫在video.txt裡面，並一併放入學號資料夾中**。
+請上傳一個 zip 檔（壓縮檔，請注意副檔名要是 zip）到 CEIBA，zip 檔內需要包含一個**名稱是自己學號的資料夾**，裡面包含一個 py 檔`must.py`。如果這次作業有拍攝影片，**請將影片連結寫在video.txt裡面，並一併放入學號資料夾中**。
+
+就算只有一個檔案也請大家務必上傳 zip 檔，不要直接上傳 py 檔。
 
 範例：
 ```
