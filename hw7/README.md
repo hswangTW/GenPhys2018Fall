@@ -22,7 +22,7 @@
 ## I. Numpy Array  
 Python has a very powerful module called `numpy`, in which there is a type called array. Array can help us to speed up program dramatically (30 times to 300 timesfaster). First, let’s see some operations about array.  
 
-![nparray](pic/numpy_array.png)
+<img src="pic/numpy_array.png" width="1201"/>
 
 Notice the index starts from 0. The following is to compare code execution speed for different methods.  
 
