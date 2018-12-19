@@ -1,6 +1,6 @@
-# Homework 7: Spring-Ball Wave and Dispersion of 1D phonon [numpy array]
-
 ![banner](pic/banner.png)
+
+# Homework 7: Spring-Ball Wave and Dispersion of 1D phonon [numpy array]
 
 這是作業七的說明，但是本學期是不需要交這份作業的，大家可以自由練習。（別寫錯作業了！）
 
