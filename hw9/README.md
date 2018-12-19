@@ -1,13 +1,3 @@
-<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-</style>
-
 # Homework 9: Spring-Ball Wave and Dispersion of 1D phonon [numpy array]
 
 因為這次作業依然沒有 Optional 部份，所以 Must 部份的總分是 1.25 分。
@@ -49,7 +39,7 @@ In some programs, e.g. games, you use mice or keyboards to control things but at
 
 ### Code for ones not using Jupyter
 
-<img src="pic/keyboard.png" class="center"/>
+<img src="pic/keyboard.png" class="center" height=400/>
 
 ```python
 from vpython import *
@@ -93,7 +83,7 @@ In the main program, command `scene.bind('keydown', keyinput)` binds `keyinput` 
 
 ### Code for Jupyter (also available for other environments)
 
-<img src="pic/button.png" class="center"/>
+<img src="pic/button.png" height="400"/>
 
 ```python
 from vpython import *
@@ -130,7 +120,7 @@ In the main loop `ball.rotate(angle=pi/600, axis=vector(sin(angle), cos(angle), 
 
 ## II. Histogram Module  
 
-<img src="pic/histogram.png" class="center"/>
+<img src="pic/histogram.png" height="300"/>
 
 ### Do save these codes as `histogram.py` in your homework folder
 
@@ -337,9 +327,9 @@ The purpose of these codes is to detect the collision between the atoms, then pi
 
    (here I use x to represent the position.) Then, because a property of Numpy called "broadcasting", this subtraction will actually become
 
-   <img src="https://latex.codecogs.com/gif.latex?\dpi{300}&space;\begin{pmatrix}&space;\vec{x_0}&space;&&space;\vec{x_1}&space;&&space;...\\&space;\vec{x_0}&space;&&space;\vec{x_1}&space;&&space;...\\&space;\vec{x_0}&space;&&space;\vec{x_1}&space;&&space;...&space;\end{pmatrix}&space;-&space;\begin{pmatrix}&space;\vec{x_0}&space;&&space;\vec{x_0}&space;&&space;\vec{x_0}\\&space;\vec{x_1}&space;&&space;\vec{x_1}&space;&&space;\vec{x_1}\\&space;...&space;&&space;...&space;&&space;...&space;\end{pmatrix}" height="90" class="center"/>
+   <img src="https://latex.codecogs.com/gif.latex?\dpi{300}&space;\begin{pmatrix}&space;\vec{x_0}&space;&&space;\vec{x_1}&space;&&space;...\\&space;\vec{x_0}&space;&&space;\vec{x_1}&space;&&space;...\\&space;\vec{x_0}&space;&&space;\vec{x_1}&space;&&space;...&space;\end{pmatrix}&space;-&space;\begin{pmatrix}&space;\vec{x_0}&space;&&space;\vec{x_0}&space;&&space;\vec{x_0}\\&space;\vec{x_1}&space;&&space;\vec{x_1}&space;&&space;\vec{x_1}\\&space;...&space;&&space;...&space;&&space;...&space;\end{pmatrix}" height="90" />
 
-   <img src="https://latex.codecogs.com/gif.latex?\dpi{300}&space;=&space;\begin{pmatrix}&space;0&space;&&space;\Delta\vec{x}_{10}&space;&&space;\Delta\vec{x}_{20}&space;&&space;...\\&space;\Delta\vec{x}_{01}&space;&&space;0&space;&&space;\Delta\vec{x}_{21}&space;&&space;...\\&space;\Delta\vec{x}_{02}&space;&&space;\Delta\vec{x}_{12}&space;&&space;0&space;&&space;...\\&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;\end{pmatrix}" height="110" class="center"/>
+   <img src="https://latex.codecogs.com/gif.latex?\dpi{300}&space;=&space;\begin{pmatrix}&space;0&space;&&space;\Delta\vec{x}_{10}&space;&&space;\Delta\vec{x}_{20}&space;&&space;...\\&space;\Delta\vec{x}_{01}&space;&&space;0&space;&&space;\Delta\vec{x}_{21}&space;&&space;...\\&space;\Delta\vec{x}_{02}&space;&&space;\Delta\vec{x}_{12}&space;&&space;0&space;&&space;...\\&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;\end{pmatrix}" height="110"/>
 
    So the `r_array` is just a matrix of displacement vectors.
 
@@ -379,7 +369,7 @@ The purpose of these codes is to detect the collision between the atoms, then pi
    
    Finally, we examine the direction of velocities, just as we did in the previous homework, and then use `vcollision` to perform the collision.
 
-> For the usage of `np.newaxis`, you can take a look at this page (in Mandarin):
+> For the usage of `np.newaxis`, you can take a look at this page (in Mandarin):  
 > http://ben-do.github.io/2016/09/15/change-shape-of-matrix-by-numpy/
 
 ## IV. Homework
