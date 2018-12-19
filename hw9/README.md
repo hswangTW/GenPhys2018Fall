@@ -1,5 +1,7 @@
 # Homework 9: Spring-Ball Wave and Dispersion of 1D phonon [numpy array]
 
+這份作業說明的長度本來就跟作業五有得拚（我還貢獻了一點...），還補充了一些前兩次作業提過的概念，所以同學們專題弄完有餘力就早點開始吧！
+
 因為這次作業依然沒有 Optional 部份，所以 Must 部份的總分是 1.25 分。
 
 ## 影片以及官方PDF  
@@ -167,7 +169,7 @@ Under `if __name__ == '__main__':` shows how to use it. You first import vpython
 
 > #### 助教註:
 > ### Before you going on...
-> **Do read the insturctions [here](prior_knowledge.md), which cover the concept introduced in [hw7](../hw7/README.md) and hw8, or you'll just feel WTF while reading the following part.**
+> **Do read the insturctions [here](prior_knowledge.md), which cover the concept introduced in hw7 and hw8, or you may just feel WTF while reading the following part.**
 >
 > 
 > Here Professor put almost all the instructions in the comment. But in the format of this document, doing so will make the instructions harder to read, so I will devide the codes into several parts and move some long sentences out of the code comments. To execute the code, just combine these parts yourselves.
