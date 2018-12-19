@@ -402,7 +402,7 @@ For every `1000*dt`, in addition to the main animation that shows the gas of ato
 
 You wait the system to reach the equilibrium, which is indicated by the speed distribution histogram very close to the theoretical curve. Then you hit the ‘n’, freeze the current histogram plot (this is already done by ##) and go to Stage 1.
 
-<img src="pic/stage_0.png" height="200"/>
+<img src="pic/stage_0.png" height="180"/>
 
 ### In Stage 1 (adiabatic compression):
 
@@ -414,19 +414,19 @@ Make the left and right walls (in x-axis) move towards the center with a speed `
 
 Until the total length of the container becomes 1/2 of that of the original container or until you hit ‘n’ again (depending on which comes first), stop the walls from moving and go to Stage 2.
 
-<img src="pic/stage_1.png" height="200"/>
+<img src="pic/stage_1.png" height="180"/>
 
 ### In Stage 2:
 
 Start a new histogram for the speed of the atoms and add a new theoretical curve according to the current temperature. Wait until the histogram reaches the new equilibrium (i.e. the histogram is very close the theoretical value), hit the ‘n’ and go to Stage 3.
 
-<img src="pic/stage_2.png" height="200"/>
+<img src="pic/stage_2.png" height="180"/>
 
 ### In Stage 3 (free expansion):
 
 The walls suddenly go to their original positions as in Stage 0, mimicking a free expansion, in which the gas expands in an infinitesimal time without any resistance.
 
-<img src="pic/stage_3.png" height="200"/>
+<img src="pic/stage_3.png" height="180"/>
 
 Run your program, observe carefully about the physics and find what happens to `T`, `p`, `V`, `p * V`, `N * k * T` and `p * (V**gamma)`. Are these value matching to the theoretically prediction by your text book? Are the speed distribution matching the Maxwell-Boltzmann Distribution for the same temperature? Think about the physics why you get these results. Do Notice that, in this simulation, nothing but exchange of energy of elastic collision causes these results.
 
