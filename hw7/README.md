@@ -18,7 +18,7 @@
 ## Contents  
 
 - [I. Numpy Array](#i-numpy-array)  
-- [II. Practice: Longitudinal Spring-Ball Wave](#ii-practice:-longitudinal-spring-ball-wave)  
+- [II. Practice: Longitudinal Spring-Ball Wave](#ii-practice-longitudinal-spring-ball-wave)  
 - [III. Homework](#iii-homework)  
 
 ## I. Numpy Array  
