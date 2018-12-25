@@ -215,7 +215,7 @@ atoms = []                # list to store atoms
 
 ```python
 # histogram setting
-deltav = 50
+deltav = 50.0
 vdist = graph(x=800, y=0, ymax=N*deltav/1000, width=500, height=300,
               xtitle='v', ytitle='dN', align='left')
 theory_low_T = gcurve(color=color.cyan)
