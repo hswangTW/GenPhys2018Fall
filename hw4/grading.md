@@ -18,7 +18,7 @@ Because there are too many traps in the optional part, so there will be a specia
 
 <img src="my_coordinate.png" height="400"/>
 
-<img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\huge&space;\vec{\Omega}&space;=&space;\begin{pmatrix}&space;0\\&space;\omega&space;\sin&space;\phi\\&space;-\omega&space;\cos&space;\phi&space;\end{pmatrix}" title="\huge \vec{\Omega} = \begin{pmatrix} 0\\ \omega \sin \phi\\ -\omega \cos \phi \end{pmatrix}"  height=80/>
+<img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\huge&space;\vec{\Omega}&space;=&space;\begin{pmatrix}&space;0\\&space;\omega&space;\sin&space;\phi\\&space;-\omega&space;\cos&space;\phi&space;\end{pmatrix}" title="\huge \vec{\Omega} = \begin{pmatrix} 0\\ \omega \sin \phi\\ -\omega \cos \phi \end{pmatrix}"  height=85/>
 
 然後代進公式裡算外積可以得到：
 
