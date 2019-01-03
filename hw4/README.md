@@ -49,6 +49,7 @@ the_zip_file.zip
 + [Collision](#i-Collision)
 + [Pendulum](#ii-Pendulum)
 + [Homework](#iii-Homework)
++ [Grading Policy](#iv-grading-policy)
 
 ## I. Collision
 
@@ -186,3 +187,23 @@ Notice: When we have a coordinate attached on a rotating sphere as in the figure
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\vec{a_C}&space;=&space;-2\vec{\Omega}&space;\times&space;\vec{v}&space;=&space;2&space;\omega&space;\begin{pmatrix}&space;v_n&space;\sin&space;\phi&space;-&space;v_u&space;\cos&space;\phi\\&space;-v_e&space;\sin&space;\phi\\&space;v_e&space;\cos&space;\phi&space;\end{pmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\vec{a_C}&space;=&space;-2\vec{\Omega}&space;\times&space;\vec{v}&space;=&space;2&space;\omega&space;\begin{pmatrix}&space;v_n&space;\sin&space;\phi&space;-&space;v_u&space;\cos&space;\phi\\&space;-v_e&space;\sin&space;\phi\\&space;v_e&space;\cos&space;\phi&space;\end{pmatrix}" title="\vec{a_C} = -2\vec{\Omega} \times \vec{v} = 2 \omega \begin{pmatrix} v_n \sin \phi - v_u \cos \phi\\ -v_e \sin \phi\\ v_e \cos \phi \end{pmatrix}" /></a>
 
+## IV. Grading Policy
+
+### Must
+
+* The 5 balls collide with each other physically. (20%)
+* The Newton's cradle works correctly. (20%)
+* The number of lifted balls changes with different N's. (20%)
+* The Newton's cradle still works with a different N. (20%)
+* The Newton's cradle still works with yet another N. (20%)
+
+### Optional
+
+Because the error is quite big and highly depends on the value of `dt`, I will change everyone's `dt` to `0.001`
+
+* The error is less than 2 degrees. (40%)
+* The error is less than 1 degree. (40%)
+* The error is less than 0.5 degree. (20%)
+* If you could not achieve any targets above, but you displayed a simulation working correctly, you will get 20%. (Visualization is not necessary though.)
+
+Because there are some traps (one of them was not mentioned by Professor!) in the picture and the formula, so there are some special treatment. Please go [here](grading.md) and take a look at the correct value and the treatments.
