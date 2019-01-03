@@ -1,8 +1,8 @@
+<img src="pic/banner.png"/>
+
 # VP8: Equipartition of energy [class and module]
 
-[!banner](pic/banner.png)
-
-作業八說明 by 別班助教，供大家自由練習或單純看老師提了哪些概念。
+作業八說明 by [另一班助教](https://github.com/janice-cat)，供大家自由練習或單純看老師提了哪些概念。
 * 原始出處: https://github.com/janice-cat/GenPhys2018FALL/tree/master/hw8
 
 ## 影片以及作業說明  

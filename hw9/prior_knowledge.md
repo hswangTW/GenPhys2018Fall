@@ -1,6 +1,6 @@
 # Prior knowledge for HW9
 
-Because we have skipped two homework assignments, I collected some important concepts associated with HW9 here.
+Because we have skipped two homework assignments, I collected some important concepts associated with HW9 here. You can also directly take a look at [hw7](../hw7/README.md) and [hw8](../hw8/README.md) if you wish.
 
 ## Module
 

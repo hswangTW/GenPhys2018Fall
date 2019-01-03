@@ -1,5 +1,7 @@
 # Homework 9: Spring-Ball Wave and Dispersion of 1D phonon [numpy array]
 
+這份作業說明的長度本來就跟作業五有得拚（我還貢獻了一點...），還補充了一些前兩次作業提過的概念，所以同學們專題弄完有餘力就早點開始吧！
+
 因為這次作業依然沒有 Optional 部份，所以 Must 部份的總分是 1.25 分。
 
 ## 影片以及官方PDF  
@@ -10,8 +12,6 @@
 ## 作業繳交格式
 
 請上傳一個 zip 檔（壓縮檔，請注意副檔名要是 zip）到 CEIBA，zip 檔內需要包含一個**名稱是自己學號的資料夾**，裡面包含兩個 py 檔 `VP9.py` 和 `histogram.py`。如果這次作業有拍攝影片，**請將影片連結寫在video.txt裡面，並一併放入學號資料夾中**。
-
-就算只有一個檔案也請大家務必上傳 zip 檔，不要直接上傳 py 檔。
 
 範例：
 ```
@@ -169,7 +169,7 @@ Under `if __name__ == '__main__':` shows how to use it. You first import vpython
 
 > #### 助教註:
 > ### Before you going on...
-> **Do read the insturctions [here](prior_knowledge.md), which cover the concept introduced in [hw7](../hw7/README.md) and hw8, or you'll just feel WTF while reading the following part.**
+> **Do read the insturctions [here](prior_knowledge.md), which cover the concept introduced in hw7 and hw8, or you may just feel WTF while reading the following part.**
 >
 > 
 > Here Professor put almost all the instructions in the comment. But in the format of this document, doing so will make the instructions harder to read, so I will devide the codes into several parts and move some long sentences out of the code comments. To execute the code, just combine these parts yourselves.
@@ -215,7 +215,7 @@ atoms = []                # list to store atoms
 
 ```python
 # histogram setting
-deltav = 50
+deltav = 50.0
 vdist = graph(x=800, y=0, ymax=N*deltav/1000, width=500, height=300,
               xtitle='v', ytitle='dN', align='left')
 theory_low_T = gcurve(color=color.cyan)
