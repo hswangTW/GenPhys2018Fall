@@ -16,7 +16,7 @@ Because there are too many traps in the optional part, so there will be a specia
 
 要得到新的公式，我們要先把 <img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;\vec{\Omega}" height=18/> 投影到我們座標系的各個分量上：
 
-![my_coordinate](my_coordinate.png)
+<img src="my_coordinate.png" height="300"/>
 
 <img src="https://latex.codecogs.com/gif.download?%5Cdpi%7B150%7D%20%5Cvec%7B%5COmega%7D%20%3D%20%5Cbegin%7Bpmatrix%7D%200%5C%5C%20%5Comega%20%5Csin%20%5Cphi%5C%5C%20-%5Comega%20%5Ccos%20%5Cphi%20%5Cend%7Bpmatrix%7D" height=80/>
 
