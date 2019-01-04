@@ -190,6 +190,8 @@ import numpy as np
 from histogram import *
 ```
 
+Note: The module `histogram` here is just your `histogram.py`. All the functions and classes inside it would be imported to your namespace. 
+
 #### Parameter setting
 
 * `size`: The size for He atom. It's 10 times bigger than the real value for easier collision but not too big for accuracy.
