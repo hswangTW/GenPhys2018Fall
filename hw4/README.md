@@ -206,4 +206,4 @@ Because the error is quite big and highly depends on the value of `dt`, I will c
 * The error is less than 0.5 degree. (20%)
 * If you could not achieve any targets above, but you displayed a simulation working correctly, you will get 20%. (Visualization is not necessary though.)
 
-Because there are some traps (one of them was not mentioned by Professor!) in the picture and the formula, so there are some special treatment. Please go [here](grading.md) and take a look at the correct value and the treatments.
+Because there are some traps (one of them was not mentioned by Professor!) in the picture and the formula, so there are some special treatment. Please go [**here**](grading.md) and take a look at the correct value and the treatments.
