@@ -233,3 +233,5 @@ Note: Now you have the orbits of the moon around the earth and the related prece
 3. Make the moon orbit the earth with a tilted angle (20%)
 4. Simulate the moon orbit precession (20%)
 5. Correctly show the period of the precession of the moon orbit (20%)
+
+p.s. An error within 1 year is acceptable.
