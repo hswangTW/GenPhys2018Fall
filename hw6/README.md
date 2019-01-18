@@ -172,3 +172,21 @@ This is similar to Practice 2 except that now the driving frequency is correspon
 In the simulation, you will see a very interesting phenomena, that the periodic force <img src="https://latex.codecogs.com/gif.latex?\dpi{150}&space;\vec{F}&space;=&space;f_a&space;\sin(\omega_dt)\hat{x}" title="\vec{F} = f_a \sin(\omega_dt)\hat{x}" height=22/> is exerted on ball 1, but in the end, ball 1 barely oscillates, think about what is the physics behind this.
 
 Working out the optional part, we will observe the principle behind "EIT" (Electromagnetically Induced Transparency), a very interesting and advanced research topic in optics that won many awards. You may read [the wiki](https://en.wikipedia.org/wiki/Electromagnetically_induced_transparency) for the mechanism of EIT and see the similarity between the EIT and our simulation here. 
+
+topic in optics that won many awards. You may read [the wiki](https://en.wikipedia.org/wiki/Electromagnetically_induced_transparency) for the mechanism of EIT and see the similarity between the EIT and our simulation here. 
+
+## IV. Grading Policy
+
+### Must
+
+* There is a peak in the plot. (20%)
+* The peak is located correctly. (20%)
+* The shape of the plot is correct. (40%)
+* The width of the peak is correct. (20%)
+
+### Optional
+
+* Correctly built up the system. (20%)
+* The program plots the position of the ball versus time. (20%)
+* The program plots the period-averaged power versus time. (20%)
+* The ball 1 does barely oscillate. (40%)
